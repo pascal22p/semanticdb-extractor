@@ -2,7 +2,7 @@ import java.nio.file.Paths
 
 object ArchitectureGenerator {
 
-  def main(args: Array[String]): Unit = {
+  def start(args: Array[String]): Unit = {
     if (args.isEmpty) {
       println("Usage: ArchitectureGenerator <semanticdb-directory>")
       return
@@ -26,5 +26,5 @@ object ArchitectureGenerator {
       println()
     }
   }
-
+  
 }

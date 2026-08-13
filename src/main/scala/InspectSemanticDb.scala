@@ -5,7 +5,7 @@ import java.nio.file.Path
 
 object InspectSemanticDb {
 
-  def main(args: Array[String]): Unit = {
+  def inspect(args: Array[String]): Unit = {
     if (args.length != 1) {
       println("Usage: InspectSemanticDb <semanticdb-file>")
       sys.exit(1)
